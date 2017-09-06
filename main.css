@@ -1,0 +1,9 @@
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	background-image:
+    url('sunny1.jpg');
+	background-size:cover;
+	color:#ffffff;
+}
