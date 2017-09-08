@@ -226,13 +226,13 @@ a {
 
 /* Individual styles */
 
-.sashimi dt, .sashimi dd, .sashimi a { background: #73C8A9; }
+/*.sashimi dt, .sashimi dd, .sashimi a { background: #73C8A9; }*/
 .nigiri dt, .nigiri dd, .nigiri a { background: #E32551; }
-.maki dt, .maki dd, .maki a { background: #FFC219; }
+/*.maki dt, .maki dd, .maki a { background: #FFC219; }*/
 
-.sashimi a:hover { background: #61c19e; }
+/*.sashimi a:hover { background: #61c19e; }*/
 .nigiri a:hover { background: #d31b46; }
-.maki a:hover { background: #ffbb00; }
+/*.maki a:hover { background: #ffbb00; }*/
 
 .nigiri {
 
@@ -251,7 +251,7 @@ a {
     left: 20%;
 }
 
-.maki {
+/*.maki {
 
     -webkit-transform: perspective(600px) translateZ(1px) !important;
     -moz-transform: perspective(600px) translateZ(1px) !important;
@@ -277,4 +277,4 @@ a {
     transform-origin: -10% 25%;
 
     left: 80%;
-}
+}*/
