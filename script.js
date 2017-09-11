@@ -429,17 +429,17 @@ if ( $.fn.makisu.enabled ) {
         speed: 1.7
     });
 
-    // $maki.makisu({
-    //     selector: 'dd',
-    //     overlap: 0.6,
-    //     speed: 0.85
-    // });
+    $maki.makisu({
+        selector: 'dd',
+        overlap: 0.6,
+        speed: 0.85
+    });
 
-    // $sashimi.makisu({
-    //     selector: 'dd',
-    //     overlap: 0.2,
-    //     speed: 0.5
-    // });
+    $sashimi.makisu({
+        selector: 'dd',
+        overlap: 0.2,
+        speed: 0.5
+    });
 
     // Open all
     
