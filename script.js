@@ -36,7 +36,10 @@ $(document).ready(function(){
 				$("#project_desc_dsp").toggle();
 			}
 
+		$("#maintitle1").text("Try this!");
+		$("#maintitle2").text("");
 
+		$("#algorithmStep").toggle();
 		$("#algorithm1").attr('src', 'must_try/algorithm.html');
 		$("#algorithm1").show();
 									});
@@ -60,6 +63,12 @@ $(document).ready(function(){
 				$("#volunteerShow").toggle();
 			}
 
+
+		if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+			}
+
 		if ($("#timeline").is(':visible')){
 
 				$("#timeline").toggle();
@@ -75,6 +84,8 @@ $(document).ready(function(){
 			}
 
 
+		$("#maintitle1").text("Explore San Fransisco Salaries");
+		$("#maintitle2").text("");
 		$("#jn").attr('src', 'jupyter/one_for_github.html');
 		$("#jn").show();
 
@@ -93,6 +104,12 @@ $(document).ready(function(){
 				$("#algorithm1").toggle();
 			}
 
+
+		if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+			}
+
 		if ($("#volunteerShow").is(':visible')){
 
 				$("#volunteerShow").toggle();
@@ -112,7 +129,8 @@ $(document).ready(function(){
 				$("#project_desc_dsp").toggle();
 			}
 
-
+		$("#maintitle1").text("Yelp Dataset - Reviews");
+		$("#maintitle2").text("");
 		$("#jn").attr('src', 'jupyter/two_for_github.html');
 		$("#jn").show();
 
@@ -131,6 +149,11 @@ $(document).ready(function(){
 				$("#algorithm1").toggle();
 			}
 
+		if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+				}	
+
 		if ($("#volunteerShow").is(':visible')){
 
 				$("#volunteerShow").toggle();
@@ -151,7 +174,8 @@ $(document).ready(function(){
 			}
 
 
-
+		$("#maintitle1").text("Explore the SVHN Dataset");
+		$("#maintitle2").text("");
 
 		$("#jn").attr('src', 'jupyter/three_for_github.html');
 		$("#jn").show();
@@ -170,6 +194,11 @@ $(document).ready(function(){
 			if ($("#algorithm1").is(':visible')){
 
 				$("#algorithm1").toggle();
+				}
+
+			if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
 				}
 
 			if ($("#volunteerShow").is(':visible')){
@@ -191,7 +220,8 @@ $(document).ready(function(){
 				$("#project_desc_dsp").toggle();
 			}
 
-		
+		$("#maintitle1").text("Hi, I'm Han!");
+		$("#maintitle2").text("");
 		$("#loadinfo").show();
 
 									});
@@ -210,6 +240,11 @@ $(document).ready(function(){
 
 				$("#algorithm1").toggle();
 			}
+
+			if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+				}
 
 			if ($("#loadinfo").is(':visible')){
 
@@ -231,7 +266,8 @@ $(document).ready(function(){
 			}
 
 
-		
+		$("#maintitle1").text("Stampede of Service");
+		$("#maintitle2").text("");
 		$("#volunteerShow").toggle();
 
 									});
@@ -248,6 +284,12 @@ $(document).ready(function(){
 
 				$("#algorithm1").toggle();
 			}
+
+
+			if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+				}
 
 			if ($("#loadinfo").is(':visible')){
 
@@ -270,7 +312,8 @@ $(document).ready(function(){
 
 
 
-		
+		$("#maintitle1").text("My Timeline");
+		$("#maintitle2").text("");
 		$("#timeline").attr('src', 'timeline/timeline.html');
 		$("#timeline").show();
 
@@ -288,6 +331,11 @@ $(document).ready(function(){
 
 				$("#algorithm1").toggle();
 			}
+
+			if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+				}
 
 			if ($("#loadinfo").is(':visible')){
 
@@ -310,7 +358,8 @@ $(document).ready(function(){
 
 
 
-		
+		$("#maintitle1").text("Running is Fun!");
+		$("#maintitle2").text("");
 		$("#marathon_display").toggle();
 	
 	
@@ -331,6 +380,10 @@ $(document).ready(function(){
 				$("#algorithm1").toggle();
 			}
 
+			if ($("#algorithmStep").is(':visible')){
+
+				$("#algorithmStep").toggle();
+				}
 			if ($("#loadinfo").is(':visible')){
 
 				$("#loadinfo").toggle();
@@ -355,7 +408,8 @@ $(document).ready(function(){
 
 
 
-
+		$("#maintitle1").text("Professional Experience");
+		$("#maintitle2").text("");
 		
 		$("#project_desc_dsp").toggle();
 	
