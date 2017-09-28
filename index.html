@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi! I'm Han.</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+	<!-- include it from a CDN (Content Delivery Network).
+    	 Both Google and Microsoft host jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+   
+</head>
+<body >
+
+    <header class="header">
+        <hgroup>
+            <h1>Hi! I'm Han.</h1>
+            <h2>Get to know me.</h2>
+        </hgroup>
+    </header>
+
+    <!-- The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. -->
+
+    <section class="demo">
+    <!-- A description list, with terms and descriptions:-->   
+    <!-- The <dl> tag is used in conjunction with <dt> (defines terms/names) and <dd> (describes each term/name).-->
+
+	   <dl class="list nigiri">
+            <dt>Explore here!</dt>
+            <dd id = "about"><a href="#">About me</a></dd>
+            <dd id = "experience"><a href="#">My Timeline</a></dd>
+            <dd id = "project_desc"><a href="#">Professional Experiences</a></dd>
+       
+        </dl>
+
+        <dl class="list maki">
+            <dt>Showcase</dt>
+            <dd id='mustTry'><a href="algorithm.html">Must Try</a></dd>
+            <dd id = 'marathon'><a href="#">My 1st Half-Marathon</a></dd>
+            <dd id = 'volunteer'><a href="#"> Volunteer </a></dd>             
+        </dl>
+
+        <dl class="list sashimi">
+            <dt>Jupyter Notebook</dt>
+            <dd id='jn1'><a href="jupyter/one_for_github.html">Explore SF Salaries</a></dd>
+            <dd id='jn2'> <a href="jupyter/two_for_github.html">Yelp Dataset - Reviews</a></dd>
+            <dd id='jn3'> <a href="jupyter/three_for_github.html">SVHN Dataset</a></dd>
+        </dl>
+
+    <!-- <a href="#" class="toggle">Toggle</a>-->
+    </section>
+
+    <div id = 'loadinfo'>
+        <p>Hi, I'm Han. <br> 
+        Currently, I'm in the thick of pursuing my CS master degree at Lyle School of Engineering, SMU, Dallas.<br>
+        I'm graduating next May, which is May 2018. 
+        </p>
+    </div>
+
+
+    <iframe   id = 'algorithm1' >
+        Sorry your browser does not support inline frames.
+    </iframe>
+
+    <iframe   id = 'jn' >
+        Sorry your browser does not support inline frames.
+    </iframe>
+
+    <div id = 'volunteerShow' >
+        <p id = 'volunteer_description'>I was placed at Dallas Afterschool where we helped to sort, assemble, and complete STEM curriculum kits to be used after school, as well as participated in educational, hands-on teambuilding activities! That is also where the friendship of Michelle and I started. That was amazing!</p>
+        <img src="img/volunteer.jpeg" alt="after-school volunteer" style = "max-width: 640px;  display: block; margin: auto; border: 2px dashed grey; padding: 10px;" align="middle">
+    </div>
+
+    <iframe   id = 'timeline' >
+        Sorry your browser does not support inline frames.
+    </iframe>
+
+    
+    <div id = 'marathon_display'  >
+
+        <p id = 'marathon_description'> It was an amazing experience!</p >
+        <img src="img/img_mara/my1.jpeg" alt="my1" style = "max-width: 600px;  display: block; margin: auto;" align="middle">       <!-- height="641" width="853" -->
+        <img src="img/img_mara/my2.jpeg" alt="my2" style = "max-height: 600px; float: left;" >       <!-- height="960" width="540" -->
+        <img src="img/img_mara/my3.jpeg" alt="my3" style = "max-height: 600px; float: right;" >        <!-- height="900" width="600" -->
+        <img src="img/img_mara/collage3.jpg" alt="my3" style = "max-height: 600px; float: left;">
+        <img src="img/img_mara/collage2.jpg" alt="my3" style = "max-height: 600px; float: right;" >
+        <img src="img/img_mara/finishline.jpg" alt="my3" style = "max-height: 600px; float: left;">
+        <img src="img/img_mara/withother.jpg" alt="my3" style = "max-height: 600px; float: right;" >
+        <img src="img/img_mara/certificate.jpg" alt="my3" style = "max-height: 600px; display: block; margin: auto;" align="middle"" >
+
+    </div>
+
+
+
+    <div id = 'project_desc_dsp'>
+    <h3>Wireless Sensor Network Project</h3>    
+    </div>
+
+    <div class="warning">
+        <div class="message">
+            <h1>CSS 3D Not Detected :(</h1>
+            <p>I couldn't detect your browser's CSS 3D capabilities. If I'm wrong, please <a href="https://github.com/soulwire/Makisu/issues" target="_blank">file an issue</a>, otherwise, try a <a href="www.google.com/chrome" target="_blank">sexier browser</a></p>
+        </div>
+    </div>
+
+    <!-- <a href="https://github.com/soulwire/Makisu" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
+
+
+
+</body>
+</html>
