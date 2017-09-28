@@ -413,7 +413,7 @@ a {
     top:17%;
     left:25%;
     height:600px;
-    width:1000px;
+    width:1010px;
     border:none;
     /*visibility:hidden;  this didn't work, but display works*/
     display: none;
