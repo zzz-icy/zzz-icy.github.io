@@ -281,9 +281,9 @@ a {
 .nigiri dt, .nigiri dd, .nigiri a { background: #E32551; }
 .maki dt, .maki dd, .maki a { background: #FFC219; }
 
-.sashimi a:hover { background: #61c19e; }
+/*.sashimi a:hover { background: #61c19e; }
 .nigiri a:hover { background: #d31b46; }
-.maki a:hover { background: #ffbb00; }
+.maki a:hover { background: #ffbb00; }*/
 
 
 /*if apply perspective on each child element, each of them will have their own vanishing point, won't line up*/
@@ -353,10 +353,20 @@ a {
     top:17%;
     left:25%;
     height:1000px;
-    width:800px;
+    width:600px;
     border:none;
+}
 
-
+#algorithmStep{
+    position:absolute;
+    top:17%;
+    left:67%;
+    height:600px;
+    width:400px;
+    display:none;
+    line-height: 2;
+    text-shadow: -2px -1px 1px #fff, 1px 2px 2px rgba(0, 0, 0, 0.2);
+    color: rgba(0,0,0,0.7);
 
 }
 
@@ -428,7 +438,7 @@ a {
     padding: 10px;
 }
 
-#marathon_description, #volunteer_description{
+#marathon_description{
 
     text-align: center;
     line-height: 2;
@@ -436,7 +446,13 @@ a {
     color: rgba(0,0,0,0.7);
 }
 
+#volunteer_description{
 
+    text-align: justify;
+    line-height: 2;
+    text-shadow: -2px -1px 1px #fff, 1px 2px 2px rgba(0, 0, 0, 0.2);
+    color: rgba(0,0,0,0.7);
+}
 
 
 #project_desc_dsp {
@@ -451,3 +467,34 @@ a {
     display: none;
     overflow-y: scroll
 }
+
+
+
+#project_desc_dsp p, ul{
+
+    line-height: 2;
+    text-shadow: -2px -1px 1px #fff, 1px 2px 2px rgba(0, 0, 0, 0.2);
+    color: rgba(0,0,0,0.7);
+
+}
+
+
+
+#project_desc_dsp h3{
+    line-height: 2;
+    text-shadow: -2px -1px 1px #fff, 1px 2px 2px rgba(0, 0, 0, 0.2);
+    color: rgba(0,0,0,0.7);
+
+}
+
+#project_desc_dsp a{
+color:green;
+}
+#project_desc_dsp a:hover {
+    text-decoration: underline;
+}
+
+#project_desc_dsp a:link {
+    color: red;
+}
+
